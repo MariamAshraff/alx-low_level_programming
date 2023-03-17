@@ -10,7 +10,7 @@ int main(void)
 {
 char s[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i;
-for (i = 0; i < 51; i++)
+for (i = 0; i < 52; i++)
 {
 putchar(s[i]);
 }
