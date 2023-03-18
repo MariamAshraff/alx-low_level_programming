@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-char s[26] = "0123456789abcdef";
+char s[16] = "0123456789abcdef";
 int i;
-for (i = 0; i < 26; i++)
+for (i = 0; i < 16; i++)
 {
 putchar(s[i]);
 }
