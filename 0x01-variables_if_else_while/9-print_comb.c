@@ -8,11 +8,15 @@
 */
 int main(void)
 {
-char s[28] = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
 int i;
-for (i = 0; i < 28; i++)
+for (i = 48; i < 58; i++)
 {
-putchar(s[i]);
+putchar(i);
+if (i != 57)
+{
+putchar(',');
+putchar(' ');
+}
 }
 putchar('\n');
 return (0);
