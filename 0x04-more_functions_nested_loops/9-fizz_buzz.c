@@ -1,7 +1,10 @@
-i#include "main.h"
+#include "main.h"
+#include "main.h"
 #include <stdio.h>
+
 /**
- * main - print
+ * main - prints the numbers from 1 to 100.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
