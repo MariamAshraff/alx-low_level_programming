@@ -4,7 +4,7 @@
  * @a: val1
  * @b: val2
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int c;
 	 c = *a;
