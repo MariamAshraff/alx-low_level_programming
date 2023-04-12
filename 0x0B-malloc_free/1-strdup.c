@@ -11,20 +11,24 @@
  */
 char *_strdup(char *str)
 {
+	int size, i;
+	char *s;
+
+	size = 0;
+	i = 0;
+
 	if (str == NULL)
 		return (NULL);
-
-	int size = 0;
 
 	while (str[size])
 		size++;
 
-	char *s = malloc(size * sizeof(char) + 1);
+	s = malloc(size * sizeof(char) + 1);
 
 	if (s == NULL)
 		return (NULL);
 
-	for (int i = 0; i < size; i++)
+	for (; i < size; i++)
 		s[i] = str[i];
 
 	return (s);
