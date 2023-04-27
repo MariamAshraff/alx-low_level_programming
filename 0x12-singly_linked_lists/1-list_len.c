@@ -4,17 +4,16 @@
  * list_len - Returns the number of elements in a linked list_t list.
  * @h: Pointer to the head of the list.
  *
- * Return: The number of elements in the list.
- */
+ * Return: The number of elements in the list
+*/
 size_t list_len(const list_t *h)
 {
-	size_t count = 0;
+	size_t n = 0;
 
-	while (h != NULL)
+	while (h)
 	{
-		count++;
+		n++;
 		h = h->next;
 	}
-
-	return (count);
+	return (n);
 }
